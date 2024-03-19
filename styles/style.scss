@@ -1,0 +1,58 @@
+$themeColor: rgba(152, 57, 255, .5);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    section.logo{
+        flex: 2 1 400px;
+        // border: 2px solid green;
+        // 先加border以更了解排版狀況，設定完成再拿掉
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-size: 2.5rem;
+        }
+
+        img{
+            width: 6vw;
+            height: 6vw;
+        }
+    }
+}
+
+nav{
+    flex: 5 1 500px;
+    //border: 2px solid red;
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        li{
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 1.35rem;
+                transition: all .2s ease;
+                padding-bottom: .3rem;
+                &:hover{
+                    color: $themeColor;
+                    border-bottom: 3px solid $themeColor;
+                }
+            }
+        }
+    }
+}

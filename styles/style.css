@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header section.logo {
+  flex: 2 1 400px;
+  display: flex;
+  align-items: center;
+}
+header section.logo h1 {
+  font-size: 2.5rem;
+}
+header section.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+
+nav {
+  flex: 5 1 500px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.35rem;
+  transition: all 0.2s ease;
+  padding-bottom: 0.3rem;
+}
+nav ul li a:hover {
+  color: rgba(152, 57, 255, 0.5);
+  border-bottom: 3px solid rgba(152, 57, 255, 0.5);
+}/*# sourceMappingURL=style.css.map */
