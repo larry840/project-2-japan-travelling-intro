@@ -1,3 +1,5 @@
+網站連結請點我：https://project-2-japan-travelling-intro.vercel.app/
+
 實作以HTML和CSS建立日本旅遊介紹網站
 <img width="960" alt="image" src="https://github.com/larry840/project-2/assets/137968655/be6eb17c-2984-4423-8431-1e5ed570c9ea">
 學習要點：
