@@ -9,3 +9,4 @@
 4. 透過flex的排版與rwd實作
 5. 嵌入google map的iframe
 6. js使用setInterval和document.querySelector實現圖片slide自動切換的功能
+7. 僅完成首頁，nav bar中其餘頁面並未實作
